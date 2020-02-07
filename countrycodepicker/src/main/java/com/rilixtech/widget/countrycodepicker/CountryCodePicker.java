@@ -1177,7 +1177,7 @@ public class CountryCodePicker extends RelativeLayout {
           "hint = " + mPhoneUtil.format(phoneNumber, PhoneNumberUtil.PhoneNumberFormat.NATIONAL));
     }
 
-    String hint = mPhoneUtil.format(phoneNumber, PhoneNumberUtil.PhoneNumberFormat.NATIONAL);
+    String hint = mPhoneUtil.format(phoneNumber, PhoneNumberUtil.PhoneNumberFormat.INTERNATIONAL);
     //if (mRegisteredPhoneNumberTextView.getHint() != null) {
     //  mRegisteredPhoneNumberTextView.setHint("");
     //}
