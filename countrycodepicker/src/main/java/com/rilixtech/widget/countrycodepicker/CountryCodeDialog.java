@@ -18,6 +18,7 @@ import android.widget.EditText;
 import android.widget.ListView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -169,11 +170,11 @@ class CountryCodeDialog extends Dialog {
       }
     });
 
-    if (mCountryCodePicker.isKeyboardAutoPopOnSearch()) {
-      if (mInputMethodManager != null) {
-        mInputMethodManager.toggleSoftInput(InputMethodManager.SHOW_FORCED, 0);
-      }
-    }
+//    if (mCountryCodePicker.isKeyboardAutoPopOnSearch()) {
+//      if (mInputMethodManager != null) {
+//        mInputMethodManager.toggleSoftInput(InputMethodManager.SHOW_FORCED, 0);
+//      }
+//    }
   }
 
   /**
