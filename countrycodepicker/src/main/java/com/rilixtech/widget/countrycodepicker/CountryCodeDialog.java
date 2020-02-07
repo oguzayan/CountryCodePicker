@@ -170,11 +170,11 @@ class CountryCodeDialog extends Dialog {
       }
     });
 
-//    if (mCountryCodePicker.isKeyboardAutoPopOnSearch()) {
-//      if (mInputMethodManager != null) {
-//        mInputMethodManager.toggleSoftInput(InputMethodManager.SHOW_FORCED, 0);
-//      }
-//    }
+      if (mCountryCodePicker.isKeyboardAutoPopOnSearch()) {
+          if (mInputMethodManager != null) {
+              mInputMethodManager.hideSoftInputFromWindow(mEdtSearch.getWindowToken(), 0);
+          }
+      }
   }
 
   /**
